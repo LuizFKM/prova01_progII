@@ -1,13 +1,13 @@
 ## 📘 Passos Seguidos pelo Professor para Resolver o Exercício
 
-1. Criar o pacote
-2. Criar a classe
+1. Criar o pacote Model
+2. Criar a classe Usuario
 3. Codificar a classe `Usuario`
 4. Implementar a tela de login
 5. Instanciar a classe `Login` na `main`
 6. Abrir a tela de cadastro
-7. Criar a máscara de CEP usando:
-   - `prop`
+7. Criar a máscara de CEP:
+   - Acessar aba de propriedades ao lado inferior direito no componente de CADASTRO
    - depois `formatterFactory`
    - depois `mask`
 8. Criar o método `retornaUsuario` na tela de cadastro
