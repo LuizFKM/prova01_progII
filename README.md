@@ -1,5 +1,5 @@
 ## Estrutura ##
-Ao acessar a pasta 2025-prog2-avaliacao1-master, acesse a pastsa src/main/java/br/edu/avaliacao
+Ao acessar a pasta 2025-prog2-avaliacao1-master, acesse a pastsa src/main/java/br/edu/avaliacao.
 Dentro dela possuimos a pasta Model - Onde fica o modelo de usuário, que foi criada durante a resolução da prova em sala.
 Para criar uma pasta como a model, que chamamos de pacote, é necessario clicar com o botão direito em br.edu.avaliação.model e ir em new -> java package
 Irá aparecer o seguinte nome no campo Package Name: br.edu.avaliacao.model.newpackage. o "newpackage" vc troca pelo nome do pacote, por exemplo, "model". É dessa forma que se cria um pacote novo. Ele será criado e sua pasta ficará com uma cor cinza. Isso indica que está vazio. Você deve clicar nele com o botão direito, new -> java class. 
