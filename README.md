@@ -1,4 +1,7 @@
 ## Estrutura ##
+
+### Lembrando que estas anotações e observações são feitas com base na IDE NET BEANS ###
+
 Ao acessar a pasta 2025-prog2-avaliacao1-master, acesse a pastsa src/main/java/br/edu/avaliacao.
 Dentro dela possuimos a pasta Model - Onde fica o modelo de usuário, que foi criada durante a resolução da prova em sala.
 Para criar uma pasta como a model, que chamamos de pacote, é necessario clicar com o botão direito em br.edu.avaliação.model e ir em new -> java package
@@ -15,7 +18,7 @@ Na pasta view são criadas as telas, como tela de login e cadastro. A lógica de
 
 
 ## 📘 Passos Seguidos pelo Professor para Resolver o Exercício
-### Anotações feitas por Henrique Pivetti ###
+### *Anotações feitas por Henrique Pivetti* ###
 
 1. Criar o pacote Model
 2. Criar a classe Usuario
