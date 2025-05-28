@@ -1,0 +1,61 @@
+AVALIAÇÃO DE PROG. COMP II
+
+Acadêmico: (Nome completo)
+
+Termine de codificar a aplicação com conhecimentos aprendidos em
+sala de aula e atividades realizadas
+
+1 - Crie um package "model" e uma classe "Usuario" onde deve ter 
+os seguintes ítens:
+
+a)Crie atributos privados: Nome completo, email, sexo, estado civil, senha, sexo,
+telefone, data de nascimento, rua, número, bairro, cidade, 
+uf e cep;
+b)Crie o método toString
+c)Crie os getters e setters
+d)Crie o método construtor vazio e com parâmetros
+
+2 - A tela de login tem alguns componentes que não são apropriados
+para sua função. Mude esses componentes para qual se encaixe melhor.
+(2 componentes).
+
+3 - Implante os seguintes métodos para o JFrame "Login":
+
+a) Crie um método de mostrar a senha na tela de login
+b) Caso email e senha não coincidirem aparecer uma mensagem
+avisando do erro.
+
+4 - Implante as seguintes métodos para a JFrame "Cadastro":
+
+a) Crie um método de mostrar a senha (senha e confirmar senha) na tela de Cadastro
+b) Caso senha e confirmar senha não coincidirem aparecer uma mensagem
+avisando do erro.
+c) Crie um método que o retorno será o objeto "Usuario".
+d) Crie um método validação dos campos onde ele fará a verificação
+se todos os campos foram preenchidos, caso não forem preenchidos
+deve aparecer uma borda vermelha e após preencher voltar ao seu 
+estado original.
+e) Ao clicar no botão cancelar, deve fechar a aplicação e voltar
+a abrir a tela de login
+f) Crie a máscara para o CEP
+
+5 - A aplicação deve finalizar da seguinte maneira:
+
+Ao clicar em "clique aqui", o usuário será redirecionado para a 
+tela de cadastro de um novo usuário. Todos os campos do formulário 
+devem ser preenchidos obrigatoriamente. Caso algum campo fique em 
+branco, o sistema destacará o respectivo componente com uma borda 
+vermelha. Assim que o campo for corretamente preenchido, sua aparência 
+retornará ao estado padrão. Após salvar o novo cadastro, a tela atual 
+será fechada e a tela de login será exibida. O sistema efetuará o login 
+e exibirá uma mensagem de sucesso.
+
+OBS:
+- Cuidar nomenclaturas (classes, métodos, atributos, variáveis, etc)
+- Eventos e funções que não foram usados será descontado nota
+- Códigos redundantes será descontado nota
+- Uso de outros materiais com acesso a internet, vai com D automaticamente
+- Após o termino, salvar o projeto, desligar o monitor e se retirar da sala.
+
+
+
