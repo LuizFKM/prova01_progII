@@ -140,7 +140,7 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_lblCliqueAquiMouseClicked
 
     private void btnEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEntrarActionPerformed
-       for (int i = 0; i < listaUsuarios.size(); i++){
+        for (int i = 0; i < listaUsuarios.size(); i++){
            String email = listaUsuarios.get(i).getEmail();
            String senha = listaUsuarios.get(i).getSenha();
            
@@ -149,6 +149,8 @@ public class Login extends javax.swing.JFrame {
            
            if(email.equals(emailDigitado) && senha.equals(senhaDigitada)){
                System.out.println("Sucesso");
+           } else{
+               System.out.println("Erro");
            }
        }
     }//GEN-LAST:event_btnEntrarActionPerformed

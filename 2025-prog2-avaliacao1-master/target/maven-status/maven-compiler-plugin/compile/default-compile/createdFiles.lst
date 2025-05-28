@@ -9,5 +9,6 @@ br\edu\avaliacao\util\Validacao.class
 br\edu\avaliacao\view\Cadastro.class
 br\edu\avaliacao\view\Login.class
 br\edu\avaliacao\view\Login$3.class
+br\edu\avaliacao\view\Cadastro$4.class
 br\edu\avaliacao\view\Cadastro$3.class
 br\edu\avaliacao\Avaliacao.class

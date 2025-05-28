@@ -101,6 +101,12 @@ public class Cadastro extends javax.swing.JFrame {
             ex.printStackTrace();
         }
 
+        txtNumero.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNumeroActionPerformed(evt);
+            }
+        });
+
         try {
             ftdCep.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("#####-###")));
         } catch (java.text.ParseException ex) {
@@ -225,10 +231,14 @@ public class Cadastro extends javax.swing.JFrame {
         
         System.out.println(listaUsuarios.toString());
         
-        new Login().setVisible(true);
+        new Login(listaUsuarios).setVisible(true);
         this.dispose();
         
     }//GEN-LAST:event_btnSalvarActionPerformed
+
+    private void txtNumeroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNumeroActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNumeroActionPerformed
 
     /**
      * @param args the command line arguments
@@ -297,7 +307,7 @@ public class Cadastro extends javax.swing.JFrame {
         usuario.setEmail(email);
         usuario.setSenha(senha);
         
-        System.out.println(usuario);
+     
         
         return usuario;
 

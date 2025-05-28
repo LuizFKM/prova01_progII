@@ -67,11 +67,9 @@
                   <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="btnEntrar" pref="266" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="chbMostrarSenha" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtEmail" alignment="0" pref="266" max="32767" attributes="0"/>
-                          <Component id="psfSenha" max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="chbMostrarSenha" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEmail" alignment="0" pref="266" max="32767" attributes="0"/>
+                      <Component id="psfSenha" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>

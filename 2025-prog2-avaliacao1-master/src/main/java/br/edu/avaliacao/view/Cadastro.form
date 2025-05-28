@@ -268,6 +268,9 @@
         <Component class="javax.swing.JTextField" name="txtRua">
         </Component>
         <Component class="javax.swing.JTextField" name="txtNumero">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNumeroActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtBairro">
         </Component>
